@@ -1,0 +1,38 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  font-family: 'Snap ITC', sans-serif;
+  text-align: center;
+  color: gold;
+  margin: auto;
+  background-color: rgb(10, 8, 8);
+}
+
+.header {
+  font-size: 5em;
+  height: 85px;
+}
+
+h1 {
+  letter-spacing: 7px;
+  font-size: 45px;
+}
+
+#board {
+  width: 1035px;
+  height: 585px;
+  background-color: rgb(245, 225, 8);
+  border: 10px solid rgb(245, 225, 8);
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+#board img {
+  width: 205px;
+  height: 115px;
+  border: 1px solid black;
+}
